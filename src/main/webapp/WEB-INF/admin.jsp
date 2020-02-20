@@ -13,11 +13,23 @@
 </head>
 <body>
 
-<h2>Her kan du se listen af brugere og evt. slette.</h2><br><br>
+<h2>Her kan du se listen af brugere og evt. slette.</h2>
+
+${requestScope.besked}<br>
+
+<h3>Slet bruger</h3>
+
+<form action="AdminServlet" method="post">
+    <label for="fname">Brugernavn:</label><br>
+    <input type="text" id="fname" name="navn"><br><br>
+    <input type="submit" value="Slet">
+</form>
+<br><br>
 
 <c:forEach var="element" items="${applicationScope.brugerMap}">
     ${element}
     <br>
+
 </c:forEach>
 
 </body>
