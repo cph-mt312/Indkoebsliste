@@ -14,6 +14,7 @@
 
 <h2>Velkommen til din webshop :-)</h2>
 
+${sessionScope.besked}
 ${requestScope.besked}<br>
 
 <h3>Login</h3>
