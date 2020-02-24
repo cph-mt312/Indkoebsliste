@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h2>Velkommen til din huskeliste :-)</h2>
+<h2>Du kan nu tilføje emner til din indkøbskurv.</h2>
 
 </body>
 </html>

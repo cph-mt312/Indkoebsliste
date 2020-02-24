@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<h3>Her kan du registrere dig som bruger på huskelisten.</h3><br><br>
+<h3>Her kan du registrere dig som bruger på webshoppen.</h3><br><br>
 ${requestScope.besked}<br><br>
 <form action="OpretServlet" method="post">
     <label for="fname">Brugernavn:</label><br>
